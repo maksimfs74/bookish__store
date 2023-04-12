@@ -1,0 +1,145 @@
+.header{
+padding:0 25px;
+border-bottom: 2px solid silver;
+margin-bottom:25px;
+}
+.link{
+   color:#000;
+}
+.header__nav{
+display:flex;
+align-items:center;
+justify-content: space-between;
+}
+.header__logo{
+display:flex;
+align-items:center;
+justify-content: center;
+}
+.header__photo{
+   padding:25px;
+   .header__img{
+      cursor:pointer;
+      width:50px;
+      height:70px;
+      
+   }
+}
+.header__title{
+   font-size:32px;
+   font-weight:500;
+   padding:5px;
+}
+.header__description{
+   font-size:18px;
+padding:5px;
+}
+.button{
+   cursor:pointer;
+   font-size:22px;
+   padding:25px;
+   border-radius: 35px;
+   transition:all .4s;
+   &:hover{
+opacity:.7;
+   }
+   &:active{
+      transform:scale(.95);
+   }
+}
+.first__value{
+border-right:1px solid silver;
+padding:5px;
+}
+.second__value{
+padding:5px;
+}
+@media(max-width:998px){
+.button{
+   font-size:18px;
+   padding:20px;
+}
+}
+@media(max-width:700px){
+.button{
+   font-size:14px;
+   padding:15px;
+}
+}
+@media(max-width:450px){
+.button{
+   font-size:12px;
+   padding:10px;
+}
+}
+@media(max-width:345px){
+.button{
+   font-size:10px;
+   padding:15px 10px;
+}
+}
+
+@media(max-width:998px){
+   .header__title{
+      font-size:28px;
+      
+   }
+   .header__description{
+font-size:16px;
+   }
+   }
+
+@media(max-width:700px){
+   .header__title{
+      font-size:22px;
+      
+   }
+   .header__description{
+font-size:12px;
+   }
+   .header__photo{
+      padding:15px;
+      .header__img{
+         cursor:pointer;
+         width:40px;
+         height:60px;
+         
+      }
+   }
+   }
+@media(max-width:450px){
+   .header__title{
+      font-size:18px;
+      
+   }
+   .header__description{
+font-size:12px;
+   }
+   .header__photo{
+      padding:10px;
+      .header__img{
+         cursor:pointer;
+         width:30px;
+         height:40px;
+         
+      }
+   }
+   }
+@media(max-width:385px){
+   .header__title{
+      font-size:16px;
+      
+   }
+   .header__description{
+font-size:10px;
+   }
+   .header__photo{
+      padding:5px;
+      .header__img{
+         cursor:pointer;
+         width:30px;
+         height:40px;
+         
+      }
+   }
+   }

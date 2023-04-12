@@ -1,0 +1,24 @@
+.input__box{
+   position:relative;
+}
+.input{
+   padding:25px 35px;
+   font-size:22px;
+   border-radius:25px;
+   background-color: #f9f9f9;
+}
+.input__img{
+   top:25px;
+   right:20px;
+   position:absolute;
+   width:25px;
+   height:25px;
+   cursor:pointer;
+}
+@media(max-width:900px){
+   .input__box{
+      display:none;
+      opacity:0;
+      visibility:hidden;
+   }
+}

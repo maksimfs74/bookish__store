@@ -1,0 +1,60 @@
+.container{
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+   .img__section{
+      display:flex;
+      align-items:center;
+cursor:pointer;
+      .img{
+width:75px;
+height:75px;
+      }
+      .img__text{
+         margin-left:15px;
+         .img__texttitle{
+font-size:26px;
+margin-bottom:10px;
+         }
+         .img__textdescription{
+            font-size:22px;
+            color:silver;
+         }
+
+      }
+   }
+}
+.buttons__section{
+   display:flex;
+   align-items:center;
+   .btn{
+      font-size:18px;
+      border-radius:25px;
+      padding:25px;
+      margin:15px;
+      transition:all .4s;
+      &:hover{
+         opacity:.7;
+      }
+      &:active{
+         transform:scale(.95);
+      }
+   }
+}
+.price__section{
+   display:flex;
+   align-items: center;
+   .btn{
+      font-size:18px;
+      border-radius:25px;
+      padding:25px;
+      margin:15px;
+      transition:all .4s;
+      &:hover{
+         opacity:.7;
+      }
+      &:active{
+         transform:scale(.95);
+      }
+   }
+}
