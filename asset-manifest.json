@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.0374f3a1.css",
-    "main.js": "/my-app/static/js/main.09c811ec.js",
-    "static/media/trash.svg": "/my-app/static/media/trash.dcd5168086a25b3307ba9f5524ca6e70.svg",
-    "static/media/dtrash.svg": "/my-app/static/media/dtrash.ceafcffb34cece0b1462c3505b170d88.svg",
-    "index.html": "/my-app/index.html",
-    "static/media/book-bookmark.svg": "/my-app/static/media/book-bookmark.ef93f974edbd2a0ceec42e1e7624ac43.svg",
-    "static/media/search.svg": "/my-app/static/media/search.6f65c2015a27f78844e1db5579aca96f.svg",
-    "main.0374f3a1.css.map": "/my-app/static/css/main.0374f3a1.css.map",
-    "main.09c811ec.js.map": "/my-app/static/js/main.09c811ec.js.map"
+    "main.css": "/bookish__store/static/css/main.0374f3a1.css",
+    "main.js": "/bookish__store/static/js/main.250c5d72.js",
+    "static/media/trash.svg": "/bookish__store/static/media/trash.dcd5168086a25b3307ba9f5524ca6e70.svg",
+    "static/media/dtrash.svg": "/bookish__store/static/media/dtrash.ceafcffb34cece0b1462c3505b170d88.svg",
+    "index.html": "/bookish__store/index.html",
+    "static/media/book-bookmark.svg": "/bookish__store/static/media/book-bookmark.ef93f974edbd2a0ceec42e1e7624ac43.svg",
+    "static/media/search.svg": "/bookish__store/static/media/search.6f65c2015a27f78844e1db5579aca96f.svg",
+    "main.0374f3a1.css.map": "/bookish__store/static/css/main.0374f3a1.css.map",
+    "main.250c5d72.js.map": "/bookish__store/static/js/main.250c5d72.js.map"
   },
   "entrypoints": [
     "static/css/main.0374f3a1.css",
-    "static/js/main.09c811ec.js"
+    "static/js/main.250c5d72.js"
   ]
 }
